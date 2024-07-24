@@ -2,7 +2,7 @@ package jdbc;
 
 import java.sql.*;
 
-public class Display {
+public class JdbcDemo {
 
 	public static void main(String[] args) throws Exception {
 
