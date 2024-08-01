@@ -1,8 +1,8 @@
 package examples_interface;
 
-public class ChildClass extends MyClass {
-	public void abstractmethod() {
-		System.out.println("ChildClass.abstractmethod()");
+public class ChildClass extends ClassInterface {
+	public void interfacemethod1() {
+		System.out.println("ChildClass.interfacemethod1()");
 	}
 
 	public void childmethod() {

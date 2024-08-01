@@ -4,7 +4,7 @@ public class MainClass {
 	public static void main(String [] args) {
 		ChildClass childclassobject = new ChildClass();
 		childclassobject.interfacemethod();
-		childclassobject.abstractmethod();
+		childclassobject.interfacemethod1();
 		childclassobject.childmethod();
 	}
 
