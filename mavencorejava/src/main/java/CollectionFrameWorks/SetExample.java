@@ -4,7 +4,7 @@ import java.util.*;
 
 public class SetExample {
 	public static void main(String[] agrs) {
-		Set<String> fruits = new HashSet<String>();
+		HashSet<String> fruits = new HashSet<String>();
 		fruits.add("apple");
 		fruits.add("mango");
 		fruits.add("banana");
