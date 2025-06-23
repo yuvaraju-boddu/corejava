@@ -1,0 +1,8 @@
+diff a/.project b/.project	(rejected hunks)
+@@ -0,5 +0,6 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <projectDescription>
++	<name>yuvi-main</name>
+ 	<comment></comment>
+ 	<projects>
+ 	</projects>
