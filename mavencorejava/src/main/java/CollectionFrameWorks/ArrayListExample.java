@@ -9,9 +9,10 @@ public class ArrayListExample {
 			num.add(2);
 			num.add(5);
 			System.out.println(num);
+			Collections.reverse(num);
+			System.out.println(num);
 		}catch(Exception e) {
 			System.out.println("This is catch block");
-			
 		}
 	}
 
