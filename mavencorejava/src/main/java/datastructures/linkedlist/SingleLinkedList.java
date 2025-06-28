@@ -66,7 +66,7 @@ public class SingleLinkedList {
 			temp=temp.next;
 		}
 		pre = tail;
-		tail.next = null;
+		tail.next = null;	
 		length--;
 		
 		if(length == 0) {
