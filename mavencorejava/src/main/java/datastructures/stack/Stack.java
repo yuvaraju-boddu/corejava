@@ -56,5 +56,22 @@ public class Stack {
 		height--;
 		return temp;
 	}
+	
+	public Integer getMin() {
+	    if (top == null) {
+	        return null; // empty stack
+	    }
 
+	    int min = top.val;
+	    Node temp = top.next;
+
+	    while (temp != null) {
+	        if (temp.val < min) {
+	            min = temp.val;
+	        }
+	        temp = temp.next;
+	    }
+
+	    return min;
+	}
 }
